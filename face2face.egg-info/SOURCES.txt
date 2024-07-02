@@ -1,0 +1,17 @@
+README.md
+setup.py
+face2face/__init__.py
+face2face/models.py
+face2face.egg-info/PKG-INFO
+face2face.egg-info/SOURCES.txt
+face2face.egg-info/dependency_links.txt
+face2face.egg-info/top_level.txt
+face2face/optimize/__init__.py
+face2face/optimize/camera.py
+face2face/optimize/derivative.py
+face2face/optimize/image.py
+face2face/utils/__init__.py
+face2face/utils/io.py
+face2face/utils/mesh.py
+face2face/utils/opengl.py
+face2face/utils/transform.py

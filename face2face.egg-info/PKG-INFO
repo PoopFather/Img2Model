@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: face2face
+Version: 0.0.1
+Summary: Fit 3D morphable model to face & track them
+Author: Karim Shaban
