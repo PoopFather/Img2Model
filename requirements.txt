@@ -1,0 +1,12 @@
+numpy
+PyOpenGL
+PyOpenGL-accelerate
+scipy
+scikit-learn
+matplotlib
+scikit-image
+h5py
+mayavi
+dlib
+opencv-python
+pandas
