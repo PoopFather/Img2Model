@@ -25,6 +25,13 @@ functions that use these classes to optimize the objective of fitting
 -   Install face2face library:
     `pip install -e .`
 
+    If you run into issues with creating wheels for OpenGL, clone this repository -> https://github.com/mcfletch/pyopengl.git
+    then install and run
+    "cd pyopengl"
+    "pip install -e ."
+    "cd accelerate"
+    "pip install -e ."
+
 You need to download 2017 BFM model as we aren't allowed to share it:
 
 -   Create models folder under Facial-Capture
