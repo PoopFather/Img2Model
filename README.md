@@ -26,11 +26,11 @@ functions that use these classes to optimize the objective of fitting
     `pip install -e .`
 
     If you run into issues with creating wheels for OpenGL, clone this repository -> https://github.com/mcfletch/pyopengl.git
-    then install and run
-    "cd pyopengl"
-    "pip install -e ."
-    "cd accelerate"
-    "pip install -e ."
+    then install and run the following commands in your Img2Model directory
+    `cd pyopengl`
+    `pip install -e .`
+    `cd accelerate`
+    `pip install -e .`
 
 You need to download 2017 BFM model as we aren't allowed to share it:
 
@@ -53,11 +53,17 @@ Also you would need the trained landmark dlib predictor:
     python cli/initialize.py --input_dir path_to_init_images --output_dir path_to_save_identity
     ```
 
-    (If an error occurs where CV2 is not present, install CV2 with "pip install opencv-python"
+    (If an error occurs where CV2 is not present, install CV2 with `pip install opencv-python`)
 
 -   After creating the identity, you can now track the expressions
     using:
 
     ```python
     python cli/tracker.py --input_dir path_to_tracking_images --output_dir path_to_save_tracking --parameters path_to_save_identity/params.npy
+    ```
+
+    I have included 1 example of a succesful operation - the sample can be found in identity_raw and the results in identity_f2f. This was achieved by running
+
+    ```python
+    python.exe .\cli\initialize.py --input_dir "..\identity_raw" --output_dir "..\identity_f2f"
     ```
